@@ -42,6 +42,10 @@ p {
   font-weight: 400; /* Regular */
 }
 
+.req-asterisk {
+  font-size: 0.5rem;
+}
+
 /* buttons */
 .btn-primary {
   background-color: #f9a73a;
