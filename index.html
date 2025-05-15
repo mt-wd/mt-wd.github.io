@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="MT Web Development creates responsive, high-performance websites for businesses, startups, nonprofits, and professionals. From e-commerce to portfolios, we deliver modern web solutions that help you stand out online. Start your project today.">
+  <meta name="keywords" content="web development, website design, responsive websites, custom websites, high-performance websites, e-commerce websites, portfolio websites, business websites, startup websites, nonprofit websites, professional websites, modern web solutions, MT Web Development">
+  <meta name="author" content="MT Web Development">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MT Web Development</title>
+  <title>MT Web Development | Custom Web Design & Development Services</title>
+
+  <meta property="og:title" content="MT Web Development | Custom Web Design & Development Services">
+  <meta property="og:description" content="MT Web Development creates responsive, high-performance websites for businesses, startups, nonprofits, and professionals. From e-commerce to portfolios, we deliver modern web solutions that help you stand out online. Start your project today.">
+  <meta property="og:image" content="https://www.mt-wd.com/images/mtwd-logo.png">
+  <meta property="og:url" content="https://www.mt-wd.com">
+  <meta property="og:type" content="website">
 
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -97,11 +107,15 @@
   </section>
 
   <!-- Footer -->
-  <footer class="text-white text-end py-3 px-3">
-    <p class="mb-0">&copy; 2025 MT Web Development. All rights reserved.</p>
+  <footer class="text-white text-center text-md-end py-3 px-3">
+    <p class="mb-0">&copy; <span id="copy-year">2025</span> MT Web Development. All rights reserved.</p>
   </footer>
 
   <!-- Scripts -->
+  <script>
+    document.getElementById("copy-year").textContent = new Date().getFullYear();
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- EmailJS SDK -->
