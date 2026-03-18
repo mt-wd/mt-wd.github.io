@@ -25,12 +25,16 @@ body {
 
 h1 {
   font-family: 'Cormorant', serif;
-  font-weight: 700; /* Bold */
+  font-weight: 700;
 }
 
 h2 {
   font-family: 'Cormorant', serif;
   font-size: 2.5rem;
+  text-shadow:
+     0 0 5px rgba(255,255,255,0.6),
+     0 0 10px rgba(255,255,255,0.6),
+     0 0 20px rgba(255,255,255,0.6);
 }
 
 .lead {
@@ -43,7 +47,7 @@ h2 {
 
 p {
   font-family: 'Cormorant', serif;
-  font-weight: 400; /* Regular */
+  font-weight: 400;
 }
 
 .req-asterisk {
@@ -69,21 +73,20 @@ nav .nav-link:hover {
 }
 
 .btn-cta-light {
-  color: rgba(255, 255, 255, 1);             /* fully opaque white text */
-  border-color: rgba(255, 255, 255, 1);      /* fully opaque white border */
-  background-color: rgba(255, 255, 255, 0.15); /* slightly visible white background */
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.15);
   transition: all 0.3s ease;
   box-shadow: none;
 }
 
 .btn-cta-light:hover,
 .btn-cta-light:focus {
-  background-color: rgba(255, 255, 255, 0.05); /* much more transparent on hover */
-  color: rgba(255, 255, 255, 0.9);            /* slight fade on text */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  /* subtle shadow on hover */
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* offer section icons */
 section .bi.text-primary {
-  color: #32769a !important; /* override Bootstrap */
+  color: #32769a !important;
 }
